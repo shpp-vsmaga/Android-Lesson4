@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lesson4</string>
+    <string name="btnSetAlarmLabel">Set alarm</string>
+    <string name="btnStopAlarmLabel">Stop Alarm!!!</string>
+</resources>
