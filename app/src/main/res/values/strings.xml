@@ -2,4 +2,6 @@
     <string name="app_name">Lesson4</string>
     <string name="btnSetAlarmLabel">Set alarm</string>
     <string name="btnStopAlarmLabel">Stop Alarm!!!</string>
+    <string name="chbRepeatEveryDayLabel">Repeat every day</string>
+    <string name="btnCancelAlarmsLabel">Cancel all alarms</string>
 </resources>

@@ -7,10 +7,8 @@ import android.util.Log;
 
 import java.util.Date;
 
-/**
- * Created by SV on 16.02.2016.
- */
 public class MyBroadcastReceiver extends BroadcastReceiver {
+
 
     @Override
     public void onReceive(Context context, Intent intent) {

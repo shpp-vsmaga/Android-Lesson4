@@ -33,10 +33,10 @@ public class AlarmActivity extends Activity {
     }
 
     private void vibrate() {
-
         Vibrator vibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
         vibrator.vibrate(1000);
     }
+
 
     @Override
     protected void onResume() {
@@ -48,9 +48,8 @@ public class AlarmActivity extends Activity {
     }
 
     public void onClickStopAlarm(View view) {
-
+        moveTaskToBack(true);
         System.exit(0);
-
     }
 
     @Override

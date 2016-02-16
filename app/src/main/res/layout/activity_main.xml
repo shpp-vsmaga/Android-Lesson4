@@ -22,8 +22,26 @@
         android:layout_height="wrap_content"
         android:text="@string/btnSetAlarmLabel"
         android:id="@+id/btnSetAlarm"
-        android:layout_below="@+id/timePicker"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="79dp"
-        android:onClick="onClickSetAlarmBtn" />
+        android:onClick="onClickSetAlarmBtn"
+        android:layout_above="@+id/btnCancelAlarms"
+        android:layout_alignStart="@+id/chbRepeatEveryDay"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentEnd="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chbRepeatEveryDayLabel"
+        android:id="@+id/chbRepeatEveryDay"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCancelAlarmsLabel"
+        android:id="@+id/btnCancelAlarms"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/chbRepeatEveryDay"
+        android:onClick="onClickCancelAlarmsBtn" />
 </RelativeLayout>
