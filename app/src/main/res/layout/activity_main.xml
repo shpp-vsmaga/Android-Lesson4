@@ -18,15 +18,13 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/btnSetAlarmLabel"
         android:id="@+id/btnSetAlarm"
         android:onClick="onClickSetAlarmBtn"
         android:layout_above="@+id/btnCancelAlarms"
-        android:layout_alignStart="@+id/chbRepeatEveryDay"
-        android:layout_marginBottom="10dp"
-        android:layout_alignParentEnd="false" />
+        android:layout_centerHorizontal="true" />
 
     <CheckBox
         android:layout_width="wrap_content"
@@ -37,11 +35,11 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/btnCancelAlarmsLabel"
         android:id="@+id/btnCancelAlarms"
+        android:onClick="onClickCancelAlarmsBtn"
         android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/chbRepeatEveryDay"
-        android:onClick="onClickCancelAlarmsBtn" />
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

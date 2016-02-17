@@ -4,7 +4,7 @@
     android:layout_height="match_parent">
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/btnStopAlarmLabel"
         android:id="@+id/btnStopAlarm"
@@ -13,8 +13,8 @@
         android:onClick="onClickStopAlarm"
         android:textAlignment="center"
         android:textSize="@dimen/btnStopAlarmTextSize"
-        android:layout_marginTop="85dp"
-        android:layout_below="@+id/imageView"
+        android:layout_marginBottom="37dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
     <ImageView
